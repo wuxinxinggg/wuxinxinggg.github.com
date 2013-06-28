@@ -8,6 +8,7 @@ categories:
 ###写这篇文章的目的###
 >写这篇文章的目的是为了自己网购的时候得进一步的优惠，无他意！
 
+<!--more-->
 
 *京东联盟*
 <iframe scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="680" height="50" src="http://show.union.360buy.com/JdShow/index.html?unionId=18978&t=5&size=10&haslogo=1&hashot=1&text="></iframe>
