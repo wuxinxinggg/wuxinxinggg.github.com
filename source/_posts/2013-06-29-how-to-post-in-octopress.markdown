@@ -19,6 +19,8 @@ categories:
 
 运行`ruby --version`确定输出是1.9.3
 
+<!--more-->
+
 >配置octopress
 >
 
@@ -49,19 +51,36 @@ categories:
 >下面摘自geekontheway的博客
 >		如果你是和别人合作博客，或者自己同时在好几个电脑上写博客，每次开始之前要做以下步骤
 
->		*新电脑的话要先克隆*，并`git checkout source` 切换到source版本
+>		*新电脑的话要先克隆:*
+			克隆博客源代码：
+				`git clone -b source git@github.com:username/username.github.com.git octopress
+				`
+			克隆_deploy:
+				`cd octopress`
+				`git clone git@github.com:username/username.github.com.git _deploy `
 
->		`git pull origin source`获得最新的文件
 
->		运行`bundle install`
+>		*部署博客：*
+			`gem install bundler`
+			`bundle install`
+			`rake setup_github_pages`
 
->		运行`rake setup_github_pages`配置github page
+>		*和远程同步：*
+			`cd octopress`
+			`git pull origin source`
+			`cd ./_deploy`
+			`git pull origin master`
 
+>		*发表博文：*
 >		运行`rake new_post["you_post_tittle"]`并编辑source/_post/下对应的markdown文件
 
->		运行`rake gen_deploy`部署到github page
-
->		最后别忘了同步到你的github上面去，运行`git push origin source`进行同步
-
+		*推送到远程服务器：*
+			`git add .`
+			`git commit -am "sth update"`
+			`git push origin source`
+			`cd _deploy`
+			`git push origin master`
+>		*部署：*
+			运行`rake gen_deploy`部署到github page
 
 
