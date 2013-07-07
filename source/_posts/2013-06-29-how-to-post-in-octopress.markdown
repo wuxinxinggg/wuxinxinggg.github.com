@@ -3,7 +3,8 @@ layout: post
 title: "利用octopress和github page搭建个人博客"
 date: 2013-03-26 10:38
 comments: true
-categories: 
+categories: octopress 
+
 ---
 ###基础建设###
 >安装RVM和Ruby

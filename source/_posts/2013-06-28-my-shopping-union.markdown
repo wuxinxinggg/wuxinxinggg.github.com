@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "我的网购联盟"
-date: 2013-04-28 23:57
+date: 2012-04-28 23:57
 comments: true
-categories: 
+categories: shoping 
+
 ---
 ###写这篇文章的目的###
 >写这篇文章的目的是为了自己网购的时候得进一步的优惠，无他意！
@@ -52,3 +53,4 @@ alimama_tks.c_i=1;
 ---
 *一号店*
 <iframe id="f" width="760px" height="80px" src= "http://union.yihaodian.com/link_make/viewPicInfo.do?imgSize=760x80&truckerU=103023928" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes" scrolling="NO" > </iframe>
+

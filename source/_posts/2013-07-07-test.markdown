@@ -10,6 +10,9 @@ def hello
   puts "hello world"
 end
 ~~~
+{:.language-ruby}
+
+	puts "hello world"
 {:lang="ruby"}
 
 {% codeblock lang:c %}
